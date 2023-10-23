@@ -1,0 +1,27 @@
+{
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--max-line-length",
+        "100",
+        "--experimental"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=100",
+        "--ignore=E402,F841,F401,E302,E305",
+    ],
+    "python.languageServer": "Jedi",
+    "editor.minimap.enabled": false,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.formatting.provider": "autopep8",
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length",
+        "100",
+        "--experimental"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+}
